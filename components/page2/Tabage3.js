@@ -30,6 +30,7 @@ export const Tabage3 = () => {
                      </button>   
                 </div>
 
+
 <div className='relative  row-span-3 bg-slate rounded-md transition delay-150 max-h-60 
                  border-2 border-amber-200'>
                 <Image src='/images/s2.jpg' width='400' height='600' alt='online ceo'  className='rounded-md   w-full h-full drop-shadow-2xl  object-cover'/>
@@ -38,6 +39,7 @@ export const Tabage3 = () => {
                     <h1>asfdfsddsvgsdbfbfbc</h1>
                      </button>   
                 </div>
+
 
 <div className='relative  row-span-3 bg-slate rounded-md transition delay-150 max-h-60 
                  border-2 border-amber-200 '>
@@ -48,6 +50,7 @@ export const Tabage3 = () => {
                     </button>   
                 </div>
 
+
 <div className='relative  row-span-3 bg-slate rounded-md transition delay-150 max-h-60 
                  border-2 border-amber-200 '>
                 <Image src='/images/s2.jpg' width='400' height='600' alt='online ceo'  className='rounded-md   w-full h-full drop-shadow-2xl  object-cover'/>
@@ -57,6 +60,7 @@ export const Tabage3 = () => {
                      </button>   
                 </div>
 
+
 <div className='relative  row-span-3 bg-slate rounded-md transition delay-150 max-h-60 
                  border-2 border-amber-200'>
                 <Image src='/images/s2.jpg' width='400' height='600' alt='online ceo'  className='rounded-md   w-full h-full drop-shadow-2xl  object-cover'/>
@@ -65,6 +69,7 @@ export const Tabage3 = () => {
                     <h1>asfdfsddsvgsdbfbfbc</h1>
                      </button>   
                 </div>
+
 
 </div>
 

@@ -13,13 +13,14 @@ export const Header2 = () => {
 width='1200' height='1200'alt='online ceo'src='/images/s5.jpg'/>
 </div>
 
-{/* Haeder aval........   */}
+{/* Haeder safe aval........   */}
 <div className='w-full h-32 sm:h-28 flex flex-col  '>
 
 <div className='w-full h-1/2'>
 <Header/>
 </div>      
-{/* ndcnsdv */}
+
+
 {/* search.......... */}
 <div className='w-full h-1/2 px-6 py-3  space-x-2  flex justify-between item-center '>
 

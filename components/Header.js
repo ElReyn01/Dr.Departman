@@ -22,11 +22,12 @@ const Header = () => {
 
 <div className='flex justify-between h-14
 bg-[#0e113452] w-full items-center px-[2%]'>
-    
+
+{/* logo aval.......................  */}
 <div className='flex space-x-2 items-center'>
 <Image className='w-10 object-contain ' width='100' height='100'  alt='online ceo'
 src='/images/logo.png'/>
-<p className='text-xl font-bold text-gray-300'>Dr.Departman</p>
+<p className='text-xl font-bold sm:text-sm md:text-md text-gray-300'>Dr.Departman</p>
 </div>
 
 
@@ -37,7 +38,7 @@ src='/images/logo.png'/>
 
 
 <div>
- 
+ {/* drawer........................ */}
 <button onClick={handleOpen}>
 <RiMenuUnfoldFill className='text-white text-2xl mx-4'/>
 </button>

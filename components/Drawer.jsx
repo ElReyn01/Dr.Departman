@@ -48,7 +48,7 @@ const Drawer = ({ isOpen, onClose }) => {
         >
           <div className="h-full bg-[#142028] shadow-lg overflow-y-auto p-4">
             <button className="absolute top-4 right-4 text-gray-500 hover:text-gray-700" onClick={onClose}>
-              <AiFillCloseCircle className="text-4xl  text-red-900" />
+              <AiFillCloseCircle className="text-2xl  text-red-900" />
             </button>
            
 
@@ -60,7 +60,7 @@ const Drawer = ({ isOpen, onClose }) => {
        
                 <div className='flex justify-center items-center'>
                  <h3 className="text-gray-400 text-center w-full px-4 py-2"> داشبورد</h3>
-                 <MdOutlineDashboardCustomize className="text-4xl mr-4 text-[#ff9900]" />
+                 <MdOutlineDashboardCustomize className="text-2xl mr-4 text-[#ff9900]" />
                 </div>
 
               </div>
@@ -75,7 +75,7 @@ const Drawer = ({ isOpen, onClose }) => {
        
                 <div className='flex justify-center items-center'>
                  <h3 className="text-gray-400 text-center w-full px-4 py-2"> بیماران</h3>
-                 <BsFillPeopleFill className="text-4xl mr-4 text-[#ff9900]" />
+                 <BsFillPeopleFill className="text-2xl mr-4 text-[#ff9900]" />
                 </div>
 
               </div>
@@ -104,17 +104,7 @@ const Drawer = ({ isOpen, onClose }) => {
               </div>
 
 
-              <div className="flex w-full justify-end my-4 border-gray-800  shadow-2xl border mt-4 rounded items-center">
-                {/* <Image  src={img2}  alt="carnet" width='450' height='150'
-                  className=" h-3/4 rounded-t-xl w-1/3 drop-shadow-xl  object-contain "/> */}
-       
-                <div className='flex justify-center items-center'>
-                 <h3 className="text-gray-400 text-center w-full px-4 py-2"> همکاران</h3>
-                 <BsFillGearFill className="text-2xl mr-4 text-[#ff9900]" />
-                </div>
-
-              </div>
-
+             
 
               
               <div className="flex w-full justify-end my-4 border-gray-800  shadow-2xl border mt-4 rounded items-center">

@@ -32,8 +32,9 @@ const Drnav = () => {
                     <h1 className='sm:text-sm md:text-sm   '>asfdfsddsvgsdbfbfbc</h1>
                     <h2 className='sm:text-sm md:text-sm'>fsdgdffdbfgfdbdfbdf</h2> 
                     </div></button>   
-
                 </div>
+
+                
                 <div className='relative  row-span-3 bg-slate rounded-xl transition delay-150 max-h-96 duration-500
                 hover:scale-110 scale-100 brightness-50 hover:brightness-100  border-4 shadow-2xl hover:z-10'>
                 <Image src='/images/bg.jpg' width='400' height='600' alt='نرم افزار کلینیک'  className='rounded-md   w-full h-full drop-shadow-2xl  object-cover'/>
@@ -45,6 +46,7 @@ const Drnav = () => {
                     </div></button>   
                 </div>
                 
+
                 <div className='relative  row-span-3 bg-slate rounded-xl transition delay-150 max-h-96 duration-500
                 hover:scale-110 scale-100 brightness-50 hover:brightness-100  border-4 shadow-2xl hover:z-10'>
                 <Image src='/images/bg.jpg' width='400' height='600' alt='نرم افزار کلینیک'  className='rounded-md  w-full h-full drop-shadow-2xl  object-cover'/>
@@ -55,6 +57,8 @@ const Drnav = () => {
                     <h2 className='sm:text-sm md:text-sm'>fsdgdffdbfgfdbdfbdf</h2> 
                     </div></button>   
                 </div>
+
+
                 <div className='relative  row-span-3 bg-slate rounded-xl transition delay-150 max-h-96 duration-500
                 hover:scale-110 scale-100 brightness-50 hover:brightness-100  border-4 shadow-2xl hover:z-10'>
                 <Image src='/images/bg.jpg' width='400' height='600' alt='نرم افزار کلینیک'  className='rounded-md   w-full h-full drop-shadow-2xl  object-cover'/>
@@ -65,6 +69,7 @@ const Drnav = () => {
                     <h2 className='sm:text-sm md:text-sm'>fsdgdffdbfgfdbdfbdf</h2> 
                     </div></button>   
                 </div>
+
                 
                 <div className='relative  row-span-3 bg-slate rounded-xl transition delay-150 max-h-96 duration-500
                 hover:scale-110 scale-100 brightness-50 hover:brightness-100  border-4 shadow-2xl hover:z-10'>
@@ -76,6 +81,8 @@ const Drnav = () => {
                     <h2 className='sm:text-sm md:text-sm'>fsdgdffdbfgfdbdfbdf</h2> 
                     </div></button>   
                 </div>
+
+
                 <div className='relative  row-span-3 bg-slate rounded-xl transition delay-150 max-h-96 duration-500
                 hover:scale-110 scale-100 brightness-50 hover:brightness-100  border-4 shadow-2xl hover:z-10'>
                 <Image src='/images/bg.jpg' width='400' height='600' alt='نرم افزار کلینیک'  className='rounded-md   w-full h-full drop-shadow-2xl  object-cover'/>
@@ -97,7 +104,9 @@ const Drnav = () => {
                     <h1 className='sm:text-sm md:text-sm  '>asfdfsddsvgsdbfbfbc</h1>
                     <h2 className='sm:text-sm md:text-sm'>fsdgdffdbfgfdbdfbdf</h2> 
                     </div></button>   
-                </div>              
+                </div>   
+
+
             </div>
          </div>
     )

@@ -26,7 +26,7 @@ export default function S() {
         <SwiperSlide>
         <div>
             <div className="flex w-full justify-center   sm:w-full md:w-2/3">
-            <Image height='400' width='600' alt="online ceo"  className="flex w-full justify-center  p-4 " src='/images/s3.jpg' />
+            <Image height='400' width='600' alt="online ceo"  className="flex w-full justify-center  p-4 " src='/images/g5.jpg' />
             </div>
              
           </div>
@@ -36,7 +36,7 @@ export default function S() {
         <SwiperSlide>
         <div>
             <div className="flex w-full justify-center h-full  sm:w-full md:w-2/3">
-            <Image height='400' width='600' alt="online ceo"  className="flex w-full justify-center  p-4 " src='/images/bgg.jpg' />
+            <Image height='400' width='600' alt="online ceo"  className="flex w-full justify-center  p-4 " src='/images/g2.jpg' />
             </div>
              
           </div>
@@ -46,7 +46,7 @@ export default function S() {
         <SwiperSlide>
           <div>
             <div className="flex w-full justify-center  sm:w-full md:w-2/3">
-            <Image height='400' width='600' alt="online ceo"  className="flex w-full justify-center  p-4 "src='/images/s3.jpg' />
+            <Image height='400' width='600' alt="online ceo"  className="flex w-full justify-center  p-4 "src='/images/g3.jpg' />
             </div>
              
           </div>
@@ -55,7 +55,7 @@ export default function S() {
         <SwiperSlide>
             <div>
             <div className="flex w-full justify-center  sm:w-full md:w-2/3">
-            <Image height='400' width='600' alt="online ceo"  className="flex w-full justify-center  p-4 " src='/images/s2.jpg' />
+            <Image height='400' width='600' alt="online ceo"  className="flex w-full justify-center  p-4 " src='/images/g4.jpg' />
             </div>
              
           </div>
@@ -64,7 +64,7 @@ export default function S() {
         <SwiperSlide>
             <div>
             <div className="flex w-full justify-center  sm:w-full md:w-2/3">
-            <Image height='400' width='600' alt="online ceo"  className="flex w-full justify-center  p-4 "src='/images/s1.jpg' />
+            <Image height='400' width='600' alt="online ceo"  className="flex w-full justify-center  p-4 "src='/images/g5.jpg' />
             </div>
              
           </div>

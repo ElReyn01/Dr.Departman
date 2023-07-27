@@ -7,14 +7,16 @@ import Link from 'next/link'
 const Hero = () => {
   return (
   <div>
+    {/* background asli..................... */}
       <div className='fixed top-0 -z-10'>
         <Image className='fixed top-0 w-full min-h-screen object-cover' 
         width='1200' height='1200'alt='online ceo'src='/images/s5.jpg'/>
       </div>
 
+
+    {/* box vorod............................. */}
       <div className='flex w-full  pt-96 pb-20 justify-center items-center'>
       
-     
       <div className='flex z-10 justify-around items-center bg-gradient-to-r
         from-indigo-800 to-transparent  w-56 border border-sky-500 rounded-md space-x-6' >
         

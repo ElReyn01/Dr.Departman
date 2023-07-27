@@ -4,6 +4,8 @@ import Image from 'next/image';
 
 const Lastlogo = () => {
     return (
+
+// logo akhar........................
 <div className='z-20 '>
 <div className='  w-full h-24 flex flex-col items-center'>
 <Image className='w-14 sm:w-10 object-contain ' width='100' height='100' alt='online ceo' 
