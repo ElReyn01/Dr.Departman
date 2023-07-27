@@ -28,7 +28,7 @@ width='1200' height='1200'alt='online ceo'src='/images/s5.jpg'/>
 <input type='text'   className='bg-[#0e113452] w-full text-white text-right sm:text-xs md:text-md p-2 pt-1 sm:pt-1 sm:h-6 h-8 rounded-xl border-2
  border-gray-400' placeholder='جستجو' ></input>  
 <div className='w-[35%] rounded-xl  h-8 sm:h-6 flex item-center justify-center border-2 border-gray-400 bg-[#0e113452]'>
-<p className='sm:text-xs text-sm flex justify-center items-center text-white'>SeeDepartman</p>
+<p className='sm:text-xs text-sm flex justify-center items-center text-white'>ساختمان پزشکان</p>
 </div>
 
 </div>
