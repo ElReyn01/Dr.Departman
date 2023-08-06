@@ -46,88 +46,88 @@ const Drawer = ({ isOpen, onClose }) => {
           className={`w-screen max-w-md transform transition ease-in-out duration-500 ${isOpen ? "translate-x-0" : "translate-x-full"
             }`}
         >
-          <div className="h-full bg-[#142028] shadow-lg overflow-y-auto p-4">
+          <div className="h-full bg-[#0b0c12e1] shadow-lg overflow-y-auto p-4">
             <button className="absolute top-4 right-4 text-gray-500 hover:text-gray-700" onClick={onClose}>
-              <AiFillCloseCircle className="text-2xl  text-red-900" />
+              <AiFillCloseCircle className="text-2xl  text-indigo-600" />
             </button>
            
 
             <div className="flex  flex-col justify-center pt-10 items-center h-full">
            
-            <div className="flex w-full justify-end my-4 border-gray-800  shadow-2xl border mt-4 rounded items-center">
+            <button className="flex w-full justify-end my-4  bg-gradient-to-l from-black hover:bg-gray-900   shadow-2xl rounded items-center">
                 {/* <Image  src={img2}  alt="carnet" width='450' height='150'
                   className=" h-3/4 rounded-t-xl w-1/3 drop-shadow-xl  object-contain "/> */}
        
                 <div className='flex justify-center items-center'>
-                 <h3 className="text-gray-400 text-center w-full px-4 py-2"> داشبورد</h3>
-                 <MdOutlineDashboardCustomize className="text-2xl mr-4 text-[#ff9900]" />
+                 <h3 className="text-gray-300 text-center w-full px-4 py-2"> داشبورد</h3>
+                 <MdOutlineDashboardCustomize className="text-2xl mr-4 text-rose-500 " />
                 </div>
 
-              </div>
-
+              </button>
+              
               
      
 
 
-              <div className="flex w-full justify-end my-4 border-gray-800  shadow-2xl border mt-4 rounded items-center">
+              <button className="flex w-full justify-end my-4  bg-gradient-to-l from-black hover:bg-gray-900   shadow-2xl rounded items-center">
                 {/* <Image  src={img2}  alt="carnet" width='450' height='150'
                   className=" h-3/4 rounded-t-xl w-1/3 drop-shadow-xl  object-contain "/> */}
        
                 <div className='flex justify-center items-center'>
-                 <h3 className="text-gray-400 text-center w-full px-4 py-2"> بیماران</h3>
-                 <BsFillPeopleFill className="text-2xl mr-4 text-[#ff9900]" />
+                 <h3 className="text-gray-300 text-center w-full px-4 py-2"> بیماران</h3>
+                 <BsFillPeopleFill className="text-2xl mr-4 text-rose-500" />
                 </div>
 
-              </div>
+              </button>
 
-              <div className="flex w-full justify-end my-4 border-gray-800  shadow-2xl border mt-4 rounded items-center">
+              <button className="flex w-full justify-end my-4  bg-gradient-to-l from-black hover:bg-gray-900   shadow-2xl rounded items-center">
                 {/* <Image  src={img2}  alt="carnet" width='450' height='150'
                   className=" h-3/4 rounded-t-xl w-1/3 drop-shadow-xl  object-contain "/> */}
        
                 <div className='flex justify-center items-center'>
-                 <h3 className="text-gray-400 text-center w-full px-4 py-2"> گزارش ها</h3>
-                 <BsFillBarChartFill className="text-2xl mr-4 text-[#ff9900]" />
+                 <h3 className="text-gray-300 text-center w-full px-4 py-2"> گزارش ها</h3>
+                 <BsFillBarChartFill className="text-2xl mr-4 text-rose-500" />
                 </div>
 
-              </div>
+             </button>
 
 
-              <div className="flex w-full justify-end my-4 border-gray-800  shadow-2xl border mt-4 rounded items-center">
+             <button className="flex w-full justify-end my-4  bg-gradient-to-l from-black hover:bg-gray-900   shadow-2xl rounded items-center">
                 {/* <Image  src={img2}  alt="carnet" width='450' height='150'
                   className=" h-3/4 rounded-t-xl w-1/3 drop-shadow-xl  object-contain "/> */}
        
                 <div className='flex justify-center items-center'>
-                 <h3 className="text-gray-400 text-center w-full px-4 py-2"> حسابداری</h3>
-                 <BsFillGearFill className="text-2xl mr-4 text-[#ff9900]" />
+                 <h3 className="text-gray-300 text-center w-full px-4 py-2"> حسابداری</h3>
+                 <BsFillGearFill className="text-2xl mr-4 text-rose-500" />
                 </div>
 
-              </div>
+                </button>
 
 
              
 
               
-              <div className="flex w-full justify-end my-4 border-gray-800  shadow-2xl border mt-4 rounded items-center">
+              <button className="flex w-full justify-end my-4  bg-gradient-to-l from-black hover:bg-gray-900  shadow-2xl rounded items-center">
                 {/* <Image  src={img2}  alt="carnet" width='450' height='150'
                   className=" h-3/4 rounded-t-xl w-1/3 drop-shadow-xl  object-contain "/> */}
        
                 <div className='flex justify-center items-center'>
-                 <h3 className="text-gray-400 text-center w-full px-4 py-2"> تنظیمات</h3>
-                 <BsFillGearFill className="text-2xl mr-4 text-[#ff9900]" />
+                 <h3 className="text-gray-300 text-center w-full px-4 py-2"> تنظیمات</h3>
+                 <BsFillGearFill className="text-2xl mr-4 text-rose-500" />
                 </div>
-
-              </div>
-
-
-        <div className="flex justify-around space-x-2">
-           <div className='flex justify-around border-2 border-rose-500 hover:border-green-400 cursor-pointer  rounded items-center mt-6 ' >
-            <p className='text-gray-300 text-sm px-4 py-2 sm:text-xs '>خروج از حساب</p>
-            <AiOutlineLogout className="text-2xl mr-4 text-rose-500 hover:text-green-400" />
-           </div>
+                </button>
+              
 
 
-           <div className='flex justify-around border-2 border-Indigo-700 hover:border-green-400 cursor-pointer  rounded items-center mt-6 ' >
-            <p className='text-gray-300 text-sm px-4 py-2 sm:text-xs  '>پیشتیبانی</p>
+        <div className="flex justify-around  space-x-2">
+           <button className='flex justify-around  bg-gray-700    ounded items-center mt-6 ' >
+            <p className=' text-sm px-4 py-2 sm:text-xs text-gray-200 hover:text-rose-400'>خروج از حساب</p>
+            <AiOutlineLogout className="text-2xl mr-4 text-rose-500 " />
+           </button>
+
+
+           <div className='flex justify-around  bg-gray-700  rounded items-center mt-6 ' >
+            <p className=' text-sm px-4 py-2 sm:text-xs text-gray-200 hover:text-rose-400  '>پیشتیبانی</p>
             <BiSupport className="text-2xl mr-4 text-rose-500 hover:text-green-400" />
            </div>
 

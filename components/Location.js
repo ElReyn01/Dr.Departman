@@ -1,49 +1,50 @@
 import React from 'react'
 import Image from 'next/image';
 // import Slider from '../components/Slider'
-import S from './S';
-
-
+import Slider1 from './Slider1';
 const Location = () => {
     return (
 <div>
-
-
-<div className='flex flex-col -z-10'>
-
-<div>
-<div className='  md:space-y-4 py-8 w-full  flex md:flex-col p-36  sm:flex-col  justify-center items-center'>
-
-{/* slider......................... */}
-<div className='w-3/5 felx md:w-full sm:w-full  '>
-<div className='flex justify-center items-center -z-40'>
-<S/>
-</div>
-{/* // img1='/images/s1.jpg' img2='/images/s1.jpg' img3='/images/s1.jpg' img4='/images/s1.jpg' img5='/images/s1.jpg' img6='/images/s1.jpg' */}
-{/* // img7='/images/s1.jpg' img8='/images/s1.jpg' img9='/images/s1.jpg' img10='/images/s1.jpg' /> */}
-</div>
-      
+    <div className='flex flex-col -z-10 px-32 md:px-[10%] sm:px-[13%]'>
 
 
 
-{/* location.............................. */}
-<div className=' w-2/5 sm:w-2/3 md:w-2/5  h-60 flex justify-center items-center '>
-<div className='bg-slate-500  w-4/5'>
-<Image className='w-full h-full object-contain ' width='600' height='400' alt='online ceo'
-src='/images/loc2.jpg'/>
-</div>
-</div>
-    
-</div>
-</div>
 
-<div className=' flex flex-col    h-full w-full'>
-<p className='text-center md:text-sm  sm:text-sm h-20 py-4 p-6 text-gray-300'>تجربه نوشدارویی از چشمه خرد و تکامل در ساختمانی که در قلب خودبه سوی این مقصود
-رهایی از بیماری حرکت میکند</p>
+    {/* slider......................... */}
+        <div >
+            <div className='  md:space-y-10 md:space-x-0 space-x-28 sm:space-x-0 py-6 w-full flex md:flex-col sm:flex-col justify-center items-center'>
 
-<p className='text-end h-20 py-4 sm:text-sm md:text-sm md:py-8 md:px-4 sm:py-9 sm:px-4 px-20 text-lg text-gray-200 '>پزشکان مجرب</p>
-</div>
-</div>
+                <div className='w-96 md:w-ful felx  justify-center item-center  '>
+                <Slider1/>
+                </div>
+                {/* // img1='/images/s1.jpg' img2='/images/s1.jpg' img3='/images/s1.jpg' img4='/images/s1.jpg' img5='/images/s1.jpg' img6='/images/s1.jpg' */}
+                {/* // img7='/images/s1.jpg' img8='/images/s1.jpg' img9='/images/s1.jpg' img10='/images/s1.jpg' /> */}
+        
+
+
+
+    {/* location.............................. */}
+        <div className='  flex  justify-center items-center '>
+            <div>
+                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!12!1m3!1d387.9585538483273!2d45.075308101618724!3d37.53135813739353!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x400553e9a50d4db9%3A0xd560db1a9059ff21!2z2LTYsdqp2Kog2K_Yp9mG2LQg2KjZhtuM2KfZhiDZhdiv24zYsSDYotmG2YTYp9uM2YY!5e0!3m2!1sen!2s!4v1690730044629!5m2!1sen!2s" 
+                 width="300" height="200" className="sm:px-[7%] sm:h-40 md:h-56    h-72 " allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+        </div>
+
+        </div>
+
+    </div>
+
+
+    {/* neveshte zire slider.............................. */}
+        <div className=' flex flex-col    h-full w-full'>
+            <p className='text-center md:text-xs  sm:text-xs h-20   text-gray-300'>تجربه نوشدارویی از چشمه خرد و تکامل در ساختمانی که در قلب خودبه سوی این مقصود
+            رهایی از بیماری حرکت میکند</p>
+                
+        
+            </div>
+        </div>
 
 
 

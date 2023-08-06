@@ -1,13 +1,13 @@
 import React from 'react'
 import Image from 'next/image';
 
-export const Tabage3= () => {
+export const Tabage4= () => {
   return (
 
 <div>
 <div className=' h-full w-full md:px-6 sm:px-3 py-2 px-12'>
 
-<p className='text-right  text-white md:text-xs sm:text-xs py-7'>طبقه سوم </p>
+<p className='text-right  text-white md:text-xs sm:text-xs py-7'>طبقه چهارم </p>
 <div className="grid grid-cols-4 gap-3 sm:grid-cols-2   md:grid-cols-3">
 
 
@@ -103,4 +103,4 @@ export const Tabage3= () => {
 </div>
   )
 }
-export default Tabage3;
+export default Tabage4;

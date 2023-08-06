@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link'
 
 
-const Hero = () => {
+const Body = () => {
   return (
   <div>
     {/* background asli..................... */}
@@ -14,23 +14,26 @@ const Hero = () => {
       </div>
 
 
-    {/* box vorod............................. */}
-      <div className='flex w-full  pt-96 pb-20 justify-center items-center'>
-      
-      <div className='flex z-10 justify-around items-center bg-gradient-to-r
-        from-indigo-800 to-transparent  w-56 border border-sky-500 rounded-md space-x-6' >
+       {/* box vorod............................. */}
+       <div className='flex w-full  pt-96 pb-20 justify-center items-center'>
+      <Link href='/dr_page2' >
+      <button type="button" className='flex z-10 justify-around items-center bg-gradient-to-r from-blue-800 to-indigo-500 hover:from-pink-500 hover:to-indigo-900
+           w-56 rounded-md space-x-6' >
         
-        <p className='text-xl  font-bold text-gray-400' >Enter </p>
-        <Link href='/dr_page2' > 
+        <p className='text-xl  font-bold text-black' >Enter </p>
+        
         <Image className='w-10 object-contain ' width='100' alt='online ceo'
-        height='100' src='/images/icon.gif'/> </Link>
-      </div>
-      
+        height='100' src='/images/icon.gif'/> 
+      </button>
+      </Link>
 
       </div>
+   
+
+      
           
   </div>
   )
 }
 
-export default Hero
+export default Body

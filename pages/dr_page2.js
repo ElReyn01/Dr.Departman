@@ -4,12 +4,11 @@ import dynamic from 'next/dynamic'
 
 
 
-const Header2 = dynamic(() => import('../components/page2/Header2'))
-const Menu1 = dynamic(() => import('../components/page2/Menu1'))
+const Menu = dynamic(() => import('../components/page2/Menu'))
 const Tabage1 = dynamic(() => import('../components/page2/Tabage1'))
 const Tabage2 = dynamic(() => import('../components/page2/Tabage2'))
 const Tabage3 = dynamic(() => import('../components/page2/Tabage3'))
-
+const Tabage4 = dynamic(() => import('../components/page2/Tabage4'))
 
 const dr_space = () => {
   return (
@@ -19,12 +18,16 @@ const dr_space = () => {
 
 
 
-<Header2/>
-<Menu1/>
+<div>
+<Menu/>
+</div>
+
+<div className=' py-60 sm:py-52'>
 <Tabage1/>
 <Tabage2/>
-<Tabage3/>  
-  
+<Tabage3/>
+<Tabage4/>
+</div> 
   
   
 
