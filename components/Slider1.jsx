@@ -1,76 +1,84 @@
-
 import React, { useRef, useState } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
-import Image from 'next/image';
-//JA Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/effect-cube';
-import 'swiper/css/pagination';
-import { EffectCards } from 'swiper/modules';
 
-// src={this.props.img4}
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+import Image from 'next/image';
+
 // import required modules
-import { EffectCube, Pagination } from 'swiper/modules';
+import { Pagination, Navigation } from 'swiper/modules';
 
 export default function Slider1() {
   return (
-    <div className="   md:p-0  sm:px-[12%] overflow-hidden">
-       <Swiper
-        effect={'cards'}
-        grabCursor={true}
-        modules={[EffectCards]}
+    <>
+      <Swiper
+        slidesPerView={1}
+        spaceBetween={30}
+        loop={true}
+        pagination={{
+          clickable: true,
+        }}
+        navigation={true}
+        modules={[Pagination, Navigation]}
         className="mySwiper"
       >
-    
-        <SwiperSlide>
-        <div>2
+       
+       
+       <SwiperSlide>
             <div className="flex w-full justify-center    ">
-            <Image height='400' width='600' alt="online ceo"  className="flex w-full justify-center sm:h-56 h-80 p-4 md:h-5 " src='/images/g5.jpg' />
+            <Image height='400' width='400' alt="online ceo"  className="flex w-full justify-center sm:h-44 h-96  md:h-72 rounded-md " src='/images/g5.jpg' />
             </div>
              
-          </div>
+
   
         </SwiperSlide>
         
         <SwiperSlide>
-        <div>
-            <div className="flex w-full justify-center h-full   ">
-            <Image height='400' width='600' alt="online ceo"  className="flex w-full justify-center sm:h-56 h-80 p-4 md:h-60 " src='/images/g2.jpg' />
+            <div className="flex w-full justify-center  ">
+            <Image height='400' width='400' alt="online ceo"  className="flex w-full justify-center sm:h-44 h-96  md:h-72 rounded-md" src='/images/g2.jpg' />
             </div>
              
-          </div>
+
   
         </SwiperSlide>
         
         <SwiperSlide>
-          <div>
+
             <div className="flex w-full justify-center   ">
-            <Image height='400' width='600' alt="online ceo"  className="flex w-full justify-center sm:h-56 h-80 md:h-60  p-4 "src='/images/g3.jpg' />
+            <Image height='400' width='400' alt="online ceo"  className="flex w-full justify-center sm:h-44 h-96 md:h-72  rounded-md "src='/images/g3.jpg' />
             </div>
              
-          </div>
+
 
         </SwiperSlide>
         <SwiperSlide>
-            <div>
+
             <div className="flex w-full justify-center  ">
-            <Image height='400' width='600' alt="online ceo"  className="flex w-full justify-center sm:h-56 h-80 p-4 md:h-60 " src='/images/g4.jpg' />
+            <Image height='400' width='400' alt="online ceo"  className="flex w-full justify-center sm:h-44 h-96  md:h-72 rounded-md " src='/images/g4.jpg' />
             </div>
-             
-          </div>
+      
+
 
         </SwiperSlide>
         <SwiperSlide>
-            <div>
             <div className="flex w-full justify-center  ">
-            <Image height='400' width='600' alt="online ceo"  className="flex w-full justify-center p-4 h-80 sm:h-56 md:h-60 "src='/images/g5.jpg' />
+            <Image height='400' width='400' alt="online ceo"  className="flex w-full justify-center  h-96 sm:h-44 md:h-72 rounded-md"src='/images/g5.jpg' />
             </div>
              
-          </div>
+
 
         </SwiperSlide>
+ 
+       
+       
+       
+       
+       
+       
       </Swiper>
-    </div>
+    </>
   );
 }

@@ -27,10 +27,10 @@ export const Menu = () => {
              width='1200' height='1200'alt='online ceo'src='/images/s5.jpg'/>
         </div>
 
-<div className='bg-[#0b0c12e1] fixed w-full z-30 '>
+<div className='bg-[#080b28d8] fixed w-full z-30 '>
     
     {/*Header .......................  */} 
-    <div className='flex justify-between h-12 border-b-2 border-gray-600 bg-[#0b0c12e1] w-full items-center px-[2%]'>
+    <div className='flex justify-between h-14 outline outline-1 outline-cyan-500 bg-[#0b0c12e1] w-full items-center px-[2%]'>
         <div className='flex space-x-2  items-center'>
             <Image className='w-10 object-contain ' width='100' height='100'  alt='online ceo'
              src='/images/logo.png'/>
@@ -42,21 +42,21 @@ export const Menu = () => {
          <RiMenuUnfoldFill className='text-white text-2xl mx-4'/>
         </button>
            <Drawer isOpen={isOpen} onClose={handleClose} />
-    </div>
+        </div>
 
 
 
 
-    <div className='px-12 md:px-6 sm:px-3 bg-[#0b0c12e1] flex flex-col  '>
+    <div className='px-12 md:px-6 sm:px-3 bg-[#0b0c12e1] flex flex-col  pt-10'>
    
     {/* search.......... */}
-        <div className='w-full pt-5 pb-3  md:pb-2 sm:pb-2 space-x-2  flex justify-end '>
+        <div className='w-full pt-5 pb-3  md:pb-2 sm:pb-2 space-x-2  flex justify-center'>
 
-            <input type='text'   className=' w-full h-8 md:h-6 sm:h-6  bg-[#0b0c12e1] text-gray-200 text-right sm:text-xs md:text-md p-2 pt-1 sm:pt-1
+            <input type='text'   className=' w-[40%] h-8 md:h-6 sm:h-6  bg-[#0b0c12e1] text-gray-200 text-right sm:text-xs md:text-md p-2 pt-1 sm:pt-1
              rounded-md border-2 border-gray-300' placeholder='جستجو' >
             </input>
               
-            <div className='w-[50%]  h-8 md:h-6 sm:h-6  flex justify-end items-center px-2 border-2 border-gray-300  rounded-md'>
+            <div className='w-[20%]  h-8 md:h-6 sm:h-6  flex justify-end items-center px-2 border-2 border-gray-300  rounded-md'>
                <p className='md:w-52 sm:w-40 flex justify-end  text-white text-sm sm:text-xs md:text-xs'>   مشاهده طبقات ساختمان </p>
             </div>
 
@@ -67,37 +67,37 @@ export const Menu = () => {
     
     {/* menu aval.......................... */}
         
-        <div className="flex h-12 justify-center items-center w-full overflow-x-auto space-x-2  sm:pb-2  ">
+        <div className="flex  h-12 justify-center items-center w-full overflow-x-auto space-x-2  sm:pb-2  ">
     
-            <div className=' h-8 sm:h-7 rounded-md text-white text-xs flex justify-center items-center  border-2 border-gray-300'>
+            <div className=' h-8 sm:h-7 rounded-md text-gray-300 text-xs flex justify-center items-center  border-2 border-gray-300'>
               <p className='w-24 flex justify-center items-center'> تهیه نسخه  </p> 
             </div>
     
-            <div className=' h-8 sm:h-7  rounded-md text-white text-xs flex   border-2 border-gray-300'>
+            <div className=' h-8 sm:h-7  rounded-md text-gray-300 text-xs flex   border-2 border-gray-300'>
               <p className='w-24 flex justify-center items-center'> ویزیت در منزل </p>
             </div>
     
-            <div className=' h-8 sm:h-7  rounded-md text-white text-xs flex justify-center items-center  border-2 border-gray-300'>
+            <div className=' h-8 sm:h-7  rounded-md text-gray-300 text-xs flex justify-center items-center  border-2 border-gray-300'>
               <p className='w-24 flex justify-center items-center'> تزریقات در منزل </p>    
             </div>
     
-            <div className=' h-8 sm:h-7  rounded-md text-white text-xs flex justify-center items-center  border-2 border-gray-300'>
+            <div className=' h-8 sm:h-7  rounded-md text-gray-300 text-xs flex justify-center items-center  border-2 border-gray-300'>
               <p className='w-24 flex justify-center items-center'>  پرستاری در منزل </p>
             </div>
     
-            <div className=' h-8 sm:h-7  rounded-md text-white text-xs flex justify-center items-center  border-2 border-gray-300'>
+            <div className=' h-8 sm:h-7  rounded-md text-gray-300 text-xs flex justify-center items-center  border-2 border-gray-300'>
               <p className='w-24 flex justify-center items-center'> ارتوپدی در منزل </p>
             </div>
     
-            <div className=' h-8 sm:h-7  rounded-md text-white text-xs flex justify-center items-center  border-2 border-gray-300'>
+            <div className=' h-8 sm:h-7  rounded-md text-gray-300 text-xs flex justify-center items-center  border-2 border-gray-300'>
               <p className='w-24 flex justify-center items-center'>  ازمایش در منزل </p>
             </div>
     
-            <div className=' h-8 sm:h-7  rounded-md text-white text-xs flex justify-center items-center  border-2 border-gray-300'>
+            <div className=' h-8 sm:h-7  rounded-md text-gray-300 text-xs flex justify-center items-center  border-2 border-gray-300'>
               <p className='w-24 flex justify-center items-center'>  تجهیزات در منزل</p>
             </div>
     
-            <div className=' h-8 sm:h-7  rounded-md text-white text-xs flex justify-center items-center  border-2 border-gray-300'>
+            <div className=' h-8 sm:h-7  rounded-md text-gray-300 text-xs flex justify-center items-center  border-2 border-gray-300'>
               <p className='w-24 flex justify-center items-center'>  معاینه در منزل  </p>
             </div>
      
@@ -111,47 +111,47 @@ export const Menu = () => {
     {/* menu dovom................................. */}
         <div className="flex h-12 justify-center items-center w-full overflow-x-auto space-x-2  sm:pb-3 ">
 
-          <div className=' h-8 md:h-7 sm:h-7 w-36 space-x-4  rounded-sm text-black  text-sm text-bold flex justify-around items-center sm:text-sm   bg-yellow-600'>
+          <div className=' h-8 md:h-7 sm:h-7 w-36 space-x-4  rounded-md text-black  text-md text-bold flex justify-around items-center sm:text-sm   bg-cyan-500'>
             <GiBeastEye /> <h1>چشم</h1> 
           </div>
 
-          <div className=' h-8 md:h-7 sm:h-7 w-36 space-x-4   rounded-sm text-black p-2 text-sm text-bold flex justify-around items-center sm:text-sm   bg-gray-300'>
+          <div className=' h-8 md:h-7 sm:h-7 w-36 space-x-4   rounded-md text-black p-2 text-md text-bold flex justify-around items-center sm:text-sm   bg-gray-300'>
              <GiHeartOrgan /> <h1>قلب</h1> 
           </div>
 
-          <div className=' h-8 md:h-7 sm:h-7 w-36 space-x-4    rounded-sm text-black p-2 text-sm text-bold flex justify-around items-center sm:text-sm   bg-yellow-600'>
+      <div className=' h-8 md:h-7 sm:h-7 w-36 space-x-4    rounded-md text-black p-2 text-md text-bold flex justify-around items-center sm:text-sm   bg-cyan-500'>
             <GiBrain /> <h1>مغز</h1> 
           </div>
 
-          <div className=' h-8 md:h-7 sm:h-7 w-36 space-x-5  rounded-sm text-black p-2 text-sm text-bold flex justify-around items-center sm:text-sm   bg-gray-300'>
+          <div className=' h-8 md:h-7 sm:h-7 w-36 space-x-5  rounded-md text-black p-2 text-md text-bold flex justify-around items-center sm:text-sm   bg-gray-300'>
             <BsFillLungsFill /> <h1>ریه</h1> 
           </div>
 
-          <div className=' h-8 md:h-7 sm:h-7 w-36 space-x-4  rounded-sm text-black p-2 text-sm text-bold flex justify-around items-center sm:text-sm   bg-yellow-600'>
+      <div className=' h-8 md:h-7 sm:h-7 w-36 space-x-4  rounded-md text-black p-2 text-md text-bold flex justify-around items-center sm:text-sm   bg-cyan-500'>
              <GiHeartOrgan /> <h1>قلب</h1> 
           </div>
 
-          <div className=' h-8 md:h-7 sm:h-7 w-36 space-x-5   rounded-sm text-black p-2 text-sm text-bold flex justify-around items-center sm:text-sm   bg-gray-300'>
+          <div className=' h-8 md:h-7 sm:h-7 w-36 space-x-5   rounded-md text-black p-2 text-md text-bold flex justify-around items-center sm:text-sm   bg-gray-300'>
             <BsFillLungsFill /> <h1>ریه</h1> 
           </div>
 
-          <div className=' h-8 md:h-7 sm:h-7 w-36 space-x-4   rounded-sm text-black p-2 text-sm text-bold flex justify-around items-center sm:text-sm   bg-yellow-600'>
+          <div className=' h-8 md:h-7 sm:h-7 w-36 space-x-4   rounded-md text-black p-2 text-md text-bold flex justify-around items-center sm:text-sm   bg-cyan-500'>
             <GiHeartOrgan /> <h1>قلب</h1> 
           </div>
 
-          <div className=' h-8 md:h-7 sm:h-7 w-36 space-x-4   rounded-sm text-black p-2 text-sm text-bold flex justify-around items-center sm:text-sm   bg-gray-300'>
+          <div className=' h-8 md:h-7 sm:h-7 w-36 space-x-4   rounded-md text-black p-2 text-md text-bold flex justify-around items-center sm:text-sm   bg-gray-300'>
             <GiBeastEye /> <h1>چشم</h1> 
           </div>
 
-          <div className=' h-8 md:h-7 sm:h-7 w-36 space-x-4  rounded-sm text-black p-2 text-sm text-bold flex justify-around items-center sm:text-sm   bg-yellow-600'>
+          <div className=' h-8 md:h-7 sm:h-7 w-36 space-x-4  rounded-md text-black p-2 text-md text-bold flex justify-around items-center sm:text-sm   bg-cyan-500'>
             <GiBeastEye /> <h1>چشم</h1>
           </div>
 
-          <div className=' h-8 md:h-7 sm:h-7 w-36 space-x-4 rounded-sm text-black p-2 text-sm text-bold flex justify-around items-center sm:text-sm   bg-gray-300'>
+          <div className=' h-8 md:h-7 sm:h-7 w-36 space-x-4 rounded-md text-black p-2 text-md text-bold flex justify-around items-center sm:text-sm   bg-gray-300'>
             <GiBrain /> <h1>مغز</h1> 
           </div>
 
-          <div className=' h-8 md:h-7 sm:h-7 w-36 space-x-4 rounded-sm text-black p-2 text-sm text-bold flex justify-around items-center sm:text-sm   bg-yellow-600'>
+          <div className=' h-8 md:h-7 sm:h-7 w-36 space-x-4 rounded-md text-black p-2 text-md text-bold flex justify-around items-center sm:text-sm   bg-cyan-500'>
             <GiBeastEye /> <h1>چشم</h1> 
           </div>
 
